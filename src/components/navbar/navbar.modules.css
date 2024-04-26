@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(216, 216, 226);
+    padding: 2rem;
+    font-size: 1.25rem;
+    position: fixed;
+}
+.navbar-children a{
+    margin-left: 30px;
+    text-decoration: none;
+}

@@ -1,0 +1,27 @@
+.sectionServicos{
+    width: 100vw;
+    
+}
+.listCardServicos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cardProdutos{
+    height: 200px;
+    width: 350px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    font-size: 1.25rem;
+}
+
+.cardProdutos:hover{
+    transition: 1s;
+    color: transparent;
+    font-size: 1.25rem;
+}

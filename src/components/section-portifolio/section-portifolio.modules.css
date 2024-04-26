@@ -1,0 +1,10 @@
+.sectionPortifolio{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(204, 195, 195);
+}
+h2{
+    font-size: 2rem;
+}

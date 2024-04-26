@@ -1,0 +1,61 @@
+.contact >div >a{
+    font-size: 1.25rem;
+}
+span{
+    font-size: 1.25rem;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardContact{
+    width: 300px;
+    height: 200px;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.faleConosco{
+    background-color:rgb(156, 161, 163) ;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-email {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 3rem;
+}
+
+.name-email input[type="text"],
+.name-email input[type="email"],
+.form input[type="text"],
+.form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    flex: 1; 
+    width: 90%;
+    
+}
+
+.form button {
+    padding: 10px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
