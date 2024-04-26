@@ -8,6 +8,8 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 3rem;
+    
 }
 .cardContact{
     width: 300px;
@@ -58,4 +60,13 @@ span{
 
 .form button:hover {
     background-color: #0056b3;
+}
+
+.titleContact{
+    font-weight: 400;
+}
+
+
+.cardContact  a {
+    color: rgb(48, 47, 47);
 }

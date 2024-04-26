@@ -10,9 +10,9 @@
     
 }
 .cardProdutos{
-    height: 200px;
+    height: 150px;
     width: 350px;
-    border: 2px solid black;
+    border: 2px solid rgb(207, 206, 206);
     display: flex;
     align-items: center;
     justify-content: center;
