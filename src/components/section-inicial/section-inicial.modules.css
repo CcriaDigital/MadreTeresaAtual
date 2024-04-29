@@ -1,6 +1,3 @@
-
-
-
 .sectionInicial{
     height: 100vh;
     width: 100vw;
@@ -12,7 +9,7 @@
     background-size: cover;
     background-attachment: fixed;
     color: white;
-    
+    padding: 0px 10px;
 }
 
 .sectionInicial::after {
@@ -34,12 +31,56 @@
     font-size: 3rem;
 }
 .sectionInicial > p{
+    letter-spacing: 1px;
     font-size: 2rem;
     font-weight: 200;
+    text-align: center;
 }
 
 .sectionInicial >button:hover{
     cursor: pointer;
     background-color:  rgb(60, 127, 202);
     color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 899px) {
+    
+    .sectionInicial > p{
+        font-size: 1.5rem;
+    }
+   
+}
+
+@media screen and (max-width: 899px) {
+    
+    .sectionInicial > h1{
+        font-size: 2rem;
+    }
+    .sectionInicial > p{
+        font-size: 1.25rem;
+    }
+   
+}
+@media screen and (max-width: 599px) {
+
+    .sectionInicial > p{
+        font-size: 1rem;
+    }
+    .sectionInicial  button{
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        width: 7rem;
+    }
+  
+   
+}
+
+@media screen and (max-width: 399px) {
+
+    .sectionInicial > h1{
+        font-size: 1.5rem;
+    }
+    .sectionInicial  button{
+        margin-top: 0rem;
+    }
+   
 }

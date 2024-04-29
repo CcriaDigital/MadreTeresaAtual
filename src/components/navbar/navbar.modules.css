@@ -1,31 +1,103 @@
-.navbar{
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.nav-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100vw;
-    height: 15vh;
-    background-color: rgba(255, 255, 255, 0);
-    padding: 2rem 5rem 2rem 2rem;
+    height: 70px;
+    background-color: transparent;
+    padding: 3rem 5rem 3rem 2rem;
     font-size: 1.25rem;
     position: fixed;
     z-index: 3;
     font-weight: 200;
-    
-   
-    
+    margin-bottom: 20px;
 }
-.navbar-children a{
-    margin-left: 30px;
+.rolagem{
+    background-color: rgb(0, 0, 0, 0.8);
+    transition: 1s;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+.nav-item{
+    margin: 0rem 1rem;
+}
+
+.nav-link{
     color: rgb(255, 255, 255);
 }
-.logoNavBar{
+    
+
+
+.logo-Nav-Bar img{
     width: 5rem;
     
 }
-.navbar > div{
+.nav-bar > div{
     margin: 0px;
     padding: 0px;
-   
-   
-    
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+.menu-item{
+    display: none;
+    position: fixed;
+    background-color:rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    top: 80px;
+    list-style: none;
+}
+.menu-item li{
+   width: 100%;
+   list-style: none;
+}
+.menu-item a{
+    padding: 1.5rem 5rem;
+ }
+.open{
+    display: block;
+}
+@media screen  and (max-width: 730px) { 
+    .nav-list{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .mobile-menu-icon button{
+        width: 3rem;
+        height: 3rem;
+        background: transparent;
+        border: transparent;
+        cursor: pointer;
+    }
+    .menu-item {
+        flex-direction: column;
+        text-align: center;
+        z-index: 5;
+    }
+    .menu-item li {
+        width: 100%;
+        cursor: pointer;
+        padding: 1.5rem;
+    }
+}
+@media screen and (min-width: 731px) {
+    .menu-item {
+        display: none;
+    }
 }

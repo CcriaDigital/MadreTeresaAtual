@@ -4,7 +4,8 @@ export default function SectionSobre(){
     return(
         <div className='sectionSobre'id='Sobre'>
             <div>
-                <h2 className='title'>Bem-vindo a Ccria</h2>
+                <h2 className='title'>Bem-vindo a Ccria
+                </h2>
             </div>
             
             <div>
