@@ -1,4 +1,3 @@
-
 import './App.css'
 import FooterFaleConosco from './components/footer-faleConosco/footer-faleConosco'
 import NavBar from './components/navbar/navbar'
@@ -19,7 +18,6 @@ function App() {
       <SectionServicos/>
       <SectionNossoTime/>
       <FooterFaleConosco/>
-
     </>
   )
 }

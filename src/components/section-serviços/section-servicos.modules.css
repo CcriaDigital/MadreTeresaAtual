@@ -1,6 +1,5 @@
 .sectionServicos{
-    width: 100vw;
-    
+    width: 100%;    
 }
 .listCardServicos{
     display: flex;
@@ -24,4 +23,7 @@
     transition: 1s;
     color: transparent;
     font-size: 1.25rem;
+}
+.sectionServicos h2 {
+    margin-top: 1.2rem;
 }

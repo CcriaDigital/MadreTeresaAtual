@@ -33,6 +33,7 @@ export default function NavBar(){
                     <li className='nav-item'><a href="#Portifolio" className='nav-link'>Portifólio</a></li>
                     <li className='nav-item'><a href="#Servicos" className='nav-link'>Serviços</a></li>
                     <li className='nav-item'><a href="#NossoTime" className='nav-link'>Nosso Time</a></li>
+                    <li className='nav-item'><a href="#" target='_blank' className='nav-link'>Blog</a></li>
                     <li className='nav-item'><a href="#Contato" className='nav-link'>Contato</a></li>
                 </ul>
                 
@@ -54,6 +55,8 @@ export default function NavBar(){
 
                     <li className='nav-item' onClick={menuShow}><a href="#NossoTime" className='nav-link'>Nosso Time</a></li>
 
+                    <li className='nav-item'><a href="#" target='_blank' className='nav-link'>Blog</a></li>
+                    
                     <li className='nav-item' onClick={menuShow}><a href="#Contato" className='nav-link'>Contato</a></li>
                 </ul>
             </div>

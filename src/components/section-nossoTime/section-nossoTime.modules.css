@@ -17,11 +17,17 @@
 
 }
 .cardTime:hover{
-   background-color: #716b77
+   background-color: var(--cor-primaria);
+   color: white;
+
 }
 
 
 li > img {
     width: 200px;
     margin-bottom: 1rem;
+}
+.sectionNossoTime h2{
+    margin-top: 2rem;
+
 }

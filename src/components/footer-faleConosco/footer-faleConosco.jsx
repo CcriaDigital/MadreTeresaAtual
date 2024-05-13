@@ -5,6 +5,18 @@ export default function FooterFaleConosco(){
         <div className="faleConosco" id='Contato'>
             <div className='title' >
              <h2>Fale Conosco</h2>
+
+             <div class='form'>
+                <input type="text" placeholder='Nome' />
+                <input type="email" placeholder='E-mail' />
+                <input type="text" placeholder='Assunto' />
+                <textarea name="" id="" cols="30" rows="10" placeholder='Mensagem'></textarea>
+                <button>Enviar mensagem</button>      
+
+             </div>
+
+            </div>
+
              <div className='contact'>
                 <div className='cardContact'>
                     <p className='titleContact'>WhatsApp: </p>
@@ -23,17 +35,6 @@ export default function FooterFaleConosco(){
                     </p>
                 </div>
              </div>
-             <div class='form'>
-                <div class="name-email">
-                    <input type="text" placeholder='Nome' />
-                    <input type="email" placeholder='E-mail' />
-                </div>
-                <input type="text" placeholder='Assunto' />
-                <textarea name="" id="" cols="30" rows="10" placeholder='Mensagem'></textarea>
-                <button>Enviar mensagem</button>        
-             </div>
-
-            </div>
 
         </div>
     )

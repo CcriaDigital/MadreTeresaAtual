@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+:root {
+  --cor-primaria: #a89378; 
+}
+
+
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Yanone Kaffeesatz', sans-serif; 
 }
-body{
-  width: 100vw;
-  height: 300vh;
-}
+
 h2{
   font-weight: 200;
 }
