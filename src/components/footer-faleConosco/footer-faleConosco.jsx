@@ -4,16 +4,7 @@ export default function FooterFaleConosco(){
     return(
         <div className="faleConosco" id='Contato'>
             <div className='title' >
-             <h2>Fale Conosco</h2>
-
-             <div class='form'>
-                <input type="text" placeholder='Nome' />
-                <input type="email" placeholder='E-mail' />
-                <input type="text" placeholder='Assunto' />
-                <textarea name="" id="" cols="30" rows="10" placeholder='Mensagem'></textarea>
-                <button>Enviar mensagem</button>      
-
-             </div>
+             <h2>Contatos</h2>
 
             </div>
 
@@ -31,7 +22,7 @@ export default function FooterFaleConosco(){
                 <div className='cardContact'>
                     <p className='titleContact'>Endereço:</p>
                     <p>
-                    SGAS 915 Bloco A Sala 205, Ed. Office Center - Brasília - DF
+                   SGAS 915, Bloco C sala 202 Ed. Office Center, Brasília, Brazil 70390-150
                     </p>
                 </div>
              </div>

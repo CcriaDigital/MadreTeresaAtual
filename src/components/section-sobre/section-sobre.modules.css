@@ -1,7 +1,72 @@
 .sectionSobre{
-    padding: 2rem 2rem;
     background-color: rgb(255, 255, 255);
+    
 }
+.aboutUs2 {
+    display: flex;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.815)), linear-gradient(45deg, #ff0,#00f, #f0f, #f00);
+    width: 100%;
+    padding: 2rem 2rem;
+    color: rgba(255, 255, 255, 0.925);
+    
+}
+
+
+.aboutUs2 img{
+   width: 600px;
+   height: 600px;
+   border-radius: 20px;
+}
+
+.ul-about-Us {
+    width: 50%; 
+    margin: 4rem auto 0rem; 
+    text-align: left; 
+  }
+  
+  .ul-about-Us li {
+    list-style-type: circle; 
+    margin-bottom: 10px; 
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 200;
+  }
+
+  .ul-about-div{
+    display: flex;
+    gap: 0px 20px;
+    padding: 2rem 2rem;
+  }
+
+  .imagem-titulo {
+    text-align: left;
+  }
+  .imagem-titulo div {
+    display: flex;
+  }
+
+  .imagem-titulo img {
+    width: 5rem; /* Defina a largura da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Deixa a imagem circular */
+    margin:2rem auto 1rem; /* Espaçamento abaixo da imagem */
+  }
+  
+  .imagem-titulo h3 {
+    font-size: 2rem ; /* Tamanho do título */
+    text-align: center;
+  }
+  
+  .imagem-titulo p {
+    font-size: 1.25rem; /* Tamanho do texto */
+    color: #666; /* Cor do texto */
+    letter-spacing: 1.5px;
+  }
+.H2padding{
+    padding-top: 20px;
+}
+  
+  
 @media screen and (max-width: 759px) {
 
     .sectionSobre p {

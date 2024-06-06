@@ -5,23 +5,15 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-image: url(../../image/background-1.jpg);
-    background-size: cover;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(45deg, #ff0,#00f, #f0f, #f00);
+    /*
+    background-image: url(../../image/MadreTeresat.jpg);*/
+    background-size: contain;
     background-attachment: fixed;
     color: white;
     padding: 0px 10px;
 }
 
-.sectionInicial::after {
-    content: ""; 
-    position: absolute; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
-    z-index: 1;
-}
 .sectionInicial > *{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     z-index: 2;
