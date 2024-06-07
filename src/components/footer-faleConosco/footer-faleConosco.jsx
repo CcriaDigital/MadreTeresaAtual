@@ -16,7 +16,7 @@ export default function FooterFaleConosco(){
 
                 <div className='cardContact'> 
                     <p className='titleContact'>E-mail: </p>
-                    <a href="mailto:contato@ccria.com.br">contato@ccria.com.br</a>
+                    <a href="mailto:clinauralima@gmail.com">CLINAURALIMA@GMAIL.COM</a>
                 </div>
                 
                 <div className='cardContact'>

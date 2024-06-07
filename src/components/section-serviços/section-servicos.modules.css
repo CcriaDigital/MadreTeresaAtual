@@ -27,3 +27,11 @@
 .sectionServicos h2 {
     margin-top: 1.2rem;
 }
+@media screen  and (max-width: 849px) { 
+    .cardProdutos{
+        height: 250px;
+        width: 250px;
+        margin: 40px;
+        font-size: 1.25rem;
+    }
+}

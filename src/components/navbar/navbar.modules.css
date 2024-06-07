@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
 }
+.linkDireto{
+    color: aliceblue;
+}
 .nav-bar{
     display: flex;
     align-items: center;

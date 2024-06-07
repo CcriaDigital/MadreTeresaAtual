@@ -56,8 +56,8 @@ export default function SectionSobre(){
 
                     </ul>
                 </div>
-                <div>
-                    <img src={phototest} alt="" />
+                <div className='divimgQuemSomos'>
+                    <img src={phototest} alt="imagemQuemSomos" />
                 </div>
             </div>
      
