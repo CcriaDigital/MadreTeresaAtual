@@ -18,7 +18,7 @@ const Formulario = () => {
    </nav>
     <div className='formulario' id='Formulario'> 
         
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdkJ3gzvuECGtdoaHKiWRmKJrL35ix6-iiVURxfpTGbvccitQ/viewform?embedded=true" width="700" height="1200
+        <iframe src="https://forms.gle/UVudkBZBGpJ9dJNv9" width="700" height="1200
         " frameborder="0" marginheight="0" marginwidth="0" className='formularioIframe'></iframe>
         
       </div>

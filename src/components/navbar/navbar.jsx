@@ -53,7 +53,7 @@ export default function NavBar(){
                     onClick={(event) => smoothScroll(event, 'Contato')} className='nav-link'>CONTATOS</a></li>
                     <li>
                         <Link className='linkDireto' to="/campanha1">
-                            CAMPANHA
+                               I WORKSHOP
                         </Link>
                     </li>
                 
